@@ -33,6 +33,12 @@ hostname: coreos1
 
 coreos:
     units:
+      - name: sshd.socket
+        command: restart
+        content: |
+          [Socket]
+          ListenStream=16222
+          Accept=yes
       - name: 10-ens3.network
         content: |
           [Match]
