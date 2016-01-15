@@ -45,6 +45,5 @@ coreos:
           MACAddress=52:54:00:fe:b3:c0
 
           [Network]
-          Address=65.67.51.189/29
-          Gateway=65.67.51.190
+          Address=66.226.76.152/29
           DNS=8.8.8.8
