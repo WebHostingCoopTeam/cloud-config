@@ -45,5 +45,5 @@ coreos:
           MACAddress=52:54:00:fe:b3:c0
 
           [Network]
-          Address=66.226.76.152/24
+          Address=66.226.76.154/24
           DNS=8.8.8.8
