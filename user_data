@@ -46,4 +46,5 @@ coreos:
 
           [Network]
           Address=216.55.137.130/24
+          Gateway=216.55.137.176
           DNS=8.8.8.8
