@@ -42,9 +42,9 @@ coreos:
       - name: 10-ens3.network
         content: |
           [Match]
-          MACAddress=52:54:00:fe:b3:c0
+          MACAddress=52:54:00:fe:b4:c0
 
           [Network]
-          Address=216.55.137.130/24
-          Gateway=216.55.137.176
+          Address=10.1.201.44/24
+          Gateway=10.1.201.1
           DNS=8.8.8.8
