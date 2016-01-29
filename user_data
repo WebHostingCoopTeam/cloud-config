@@ -42,9 +42,21 @@ coreos:
       - name: 10-ens3.network
         content: |
           [Match]
+          name=eth0
           MACAddress=52:54:00:fe:b3:c0
 
           [Network]
           Address=216.55.137.130/24
           Gateway=216.55.137.176
+          DNS=8.8.8.8
+
+      - name: 11-ens3.network
+        content: |
+          [Match]
+          name=eth1
+          MACAddress=52:54:00:7f:39:2b
+
+          [Network]
+          Address=10.1.201.152/24
+          Gateway=10.1.201.1
           DNS=8.8.8.8
